@@ -1,0 +1,17 @@
+{
+    "name": "Node.js",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+    "features": {
+        "node": {
+            "version": "lts",
+            "nodeGypDependencies": true
+        }
+    },
+    "postCreateCommand": "npm install",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ]
+}
